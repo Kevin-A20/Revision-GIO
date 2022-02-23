@@ -10,10 +10,10 @@ CREATE TABLE TBL_SHOWTIME_MOVIE (id IDENTITY PRIMARY KEY NOT NULL,
    SHOWTIME_ID INT,
    movie_id INT);
 
-insert into TBL_SHOWTIME(id,date_at) values (1,'2021-09-05');
-insert into TBL_SHOWTIME(id,date_at) values (2,'2021-09-05');
-insert into TBL_SHOWTIME(id,date_at) values (3,'2021-09-05');
-insert into TBL_SHOWTIME(id,date_at) values (4,'2021-09-05');
+insert into TBL_SHOWTIME(id,date_at) values (1,'2022-02-24');
+insert into TBL_SHOWTIME(id,date_at) values (2,'2022-02-24');
+insert into TBL_SHOWTIME(id,date_at) values (3,'2022-02-24');
+insert into TBL_SHOWTIME(id,date_at) values (4,'2022-02-24');
 
 insert into TBL_SHOWTIME_MOVIE(id,SHOWTIME_ID,movie_id) values (5,1,1);
 insert into TBL_SHOWTIME_MOVIE(id,SHOWTIME_ID,movie_id) values (6,1,3);
