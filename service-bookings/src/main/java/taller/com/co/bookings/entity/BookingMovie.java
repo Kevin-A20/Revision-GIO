@@ -10,7 +10,7 @@ import taller.com.co.bookings.model.Movie;
 import javax.persistence.*;
 
 @Entity
-@Table(name="TBL_BOOKING_MOVIE")
+@Table(name="BOOKING_MOVIE")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

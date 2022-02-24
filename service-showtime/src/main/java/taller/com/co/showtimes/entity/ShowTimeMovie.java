@@ -9,7 +9,7 @@ import taller.com.co.showtimes.model.Movie;
 import javax.persistence.*;
 
 @Entity
-@Table(name="TBL_SHOWTIME_MOVIE")
+@Table(name="SHOWTIME_MOVIE")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
